@@ -1,0 +1,243 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/my-style.css">
+    <!-- icon -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.5.0/font/bootstrap-icons.css">
+    <title>Submission | iafikry</title>
+</head>
+<body>
+    <header id="head">
+        <nav class="header" id="header">
+            <div class="header-logo f-align-items-center">
+                <div class="container">
+                    <a href="#" class="header-title" id="header-title">
+                        <img src="assets/image/pawprint-1.svg" alt="logo" class="img-logo" height="65px">
+                        CatMultiverse
+                    </a>
+                    <div class="menu-hamburger">
+                        <button type="button" class="btn btn-open" id="btn-open" onclick="openMenu()">
+                            <i class="bi bi-list"></i>
+                        </button>
+                        <button type="button" class="btn btn-close" id="btn-close" onclick="closeMenu()">
+                            <i class="bi bi-x-lg"></i>
+                        </button>
+                    </div>
+                </div>
+            </div>
+            <div class="header-menu" id="header-menu">
+                <div class="container">
+                    <ul class="menu-list" id="menu-list">
+                        <li> <a href="#" id="home" class="menu-item">Home</a> </li>
+                        <li> <a href="#" onclick="openProfile()" id="about" class="menu-item">About Me</a> </li>
+                    </ul>
+                </div>
+            </div>
+        </nav>
+    </header>
+
+    <aside id="aside-menu" class="aside">
+        <div class="container">
+            <div>
+                <button type="button" class="btn btn-close-aside" id="btn-close-aside" onclick="closeProfile()">
+                    <i class="bi bi-x-lg"></i>
+                </button>
+            </div>
+            <div class="box box-profil" id="profil">
+                <img src="assets/image/me.png" class="img-profile" alt="foto-profil">
+                <div class="box-body">
+                    <p class="box-subtitle"> <strong>About Me</strong> </p>
+                    <p class="box-text">Ibnu Ahsanul Fikry</p>
+                    <p class="box-text"><i class="bi bi-envelope" style="font-weight: bold;"></i> iafikry30@gmail.com</p>
+                    <p class="box-text"><i class="bi bi-house"></i> Tirai Mas A4/19, Karawang.</p>
+                </div>
+            </div>
+        </div>
+    </aside>
+
+    <main>
+        <section class="welcome">
+            <div class="banner">
+                <img src="assets/image/cat/cat-9.jpg" alt="kuciang" class="banner-img-hp">
+                <img src="assets/image/cat/mali-maeder-2.jpg" alt="koceng" class="banner-img">
+                <div class="banner-caption">
+                    <h1>Why You Should Have a Cat?</h1>
+                </div>
+            </div>
+            <div class="tribute">
+                <p class="tribute-text">Photo by <a href="https://www.pexels.com/@mali" target="_blank">mali maeder</a> from <a href="https://www.pexels.com/" target="_blank">Pexels</a></p>
+            </div>
+        </section>
+        <section class="pattern-1">
+            <div class="container">
+                <div class="row" id="konten-1">
+                    <div class="box section-1 f-align-items-center">
+                        <div class="box-content">
+                            <img src="assets/image/cat/cat-8.jpg" alt="kucing oren" id="cat-img-1">
+                        </div>
+                        <div class="box-body">
+                            <hr class="horizontal-line">
+                            <p class="box-text">
+                                <strong>Menurunkan risiko</strong> penyakit jantung.
+                        </div>
+                    </div>
+                </div>
+                <div class="row" style="padding-top: 1.5rem;">
+                    <div class="box section-1 f-align-items-center">
+                        <div class="box-content">
+                            <img src="assets/image/cat/cat-4.jpg" alt="kucing oren" id="cat-img-2">
+                        </div>
+                        <div class="box-body">
+                            <p class="box-text">
+                                Membantu anak penderita autisme.
+                            </p>
+                            <div class="vertical-line"></div>
+                        </div>
+                    </div>
+                </div>
+                <div class="row text-center f-justify-content-center" style="padding: 3rem 0px;">
+                    <p class="box-text" style="width: 55rem;">Jadi, masih butuh alasan kenapa Anda harus memelihara kucing?</p>
+                    <p style="padding-top: 2.5rem;" class="box-text">Okey, Kami akan memberikan alasan lainnya.</p>
+                </div>
+            </div>
+        </section>
+        <section class="pattern-2">
+            <div class="container">
+                <div class="row" style="z-index: 1;">
+                    <div class="box content-2 f-align-items-start">
+                        <img src="assets/image/cat/cat-3.jpg" alt="koceng supersaiyan" id="cat-img-3">
+                        <div class="box-body">
+                            <p class="box-text">Membantu menyembuhkan nyering tulang, sendi dan otot.</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="row f-justify-content-end">
+                    <div class="box content-3">
+                        <img src="assets/image/cat/cat-2.jpg" alt="koceng" id="cat-img-4">
+                        <div class="box-body">
+                            <hr class="horizontal-line hr-section-2">
+                            <p class="box-text">Mengurangi infeksi, masalah pernapasan dan alergi</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section id="section-article">
+            <div class="row">
+                <div class="container">
+                    <h2 class="title-section-article">7  Manfaat Memelihara Kucing</h2>
+                    <div class="article">
+                        <article class="content-article">
+                            <h2 class="title-article">1. Menurunkan risiko penyakit jantung</h2>
+                            <p class="article-text">Sama seperti memelihara anjing, memelihara kucing juga mampu menurunkan tingkat stres. Riset menemukan pula bahwa memelihara kucing memberikan dampak pada risiko penyakit kardiovaskular atau jantung.</p>
+                        </article>
+                        <article class="content-article">
+                            <h2 class="title-article">2. Membantu anak penderita autisme</h2>
+                            <p class="article-text">
+                                Para peneliti dari University of Missouri, Amerika Serikat menemukan bahwa interaksi sosial anak penderita autisme membaik secara dramatis ketika dikelilingi hewan peliharaan. Dalam studi itu, hampir separuh dari total keluarga yang diteliti memiliki kucing peliharaan. Para orang tua dalam keluarga-keluarga tersebut pun melaporkan ikatan kuat yang terbentuk antara mereka dan anak-anak.
+                            </p>
+                        </article>
+                        <article class="content-article">
+                            <h2 class="title-article">3. Membantu menyembuhkan nyering tulang, sendi dan otot</h2>
+                            <p class="article-text">
+                                suara dengkuran kucing juga memiliki kemampuan penyembuhan bagi nyeri tulang dan otot manusia. Ini terkait dengan frekuensi getaran dengkuran kucing yang berada pada kisaran 20-140 Hz. Sebuah studi pun menunjukkan bahwa frekuensi getaran antara 18-35 Hz memiliki efek positif pada persendian setelah cedera.
+                            </p>
+                        </article>
+                        <article class="content-article">
+                            <h2 class="title-article">4. Memikat lawan jenis</h2>
+                            <p class="article-text">
+                                Riset yang dipimpin oleh peneliti hewan peliharaan June Nichols menemukan bahwa perempuan cenderung lebih tertarik pada pria yang memiliki hewan peliharaan. Sebanyak 90 persen perempuan lajang yang disurvei juga memandang pria yang memelihara kucing cenderung lebih baik dan penyayang.
+                            </p>
+                        </article>
+                        <article class="content-article">
+                            <h2 class="title-article">5. Mengurangi infeksi, masalah pernapasan dan alergi</h2>
+                            <p class="article-text">
+                                Penelitian yang dilakukan terhadap anjing dan kucing menemukan bahwa anak yang memiliki kontak dengan kedua hewan peliharaan tersebut pada tahun pertama kehidupan memiliki sistem daya tahun tubuh yang lebih baik, khususnya terhadap gangguan pernapasan. Studi juga menemukan, anak-anak yang terpapar alergen kucing memiliki daya tahan tubuh lebih baik. Anak-anak di perkotaan yang paling terpapar alergen dan bakteri mengembangkan pertahanan yang lebih baik terhadap alergi. Mereka yang terpapar kucing di tahun pertama lebih kecil kemungkinannya untuk mengembangkan alergi.
+                            </p>
+                        </article>
+                        <article class="content-article">
+                            <h2 class="title-article">6. Memberi dampak positif pada kesehatan mental</h2>
+                            <p class="article-text">
+                                Dalam survei yang dilakukan Cats Protection terhadap 600 responden yang separuhnya memiliki masalah kesehatan mental, sebanyak 87 persen responden yang memelihara kucing merasakan efek positif pada kehidupan mereka.
+                            </p>
+                        </article>
+                        <article class="content-article">
+                            <h2 class="title-article">7. Menonton video kucing juga bermanfaat</h2>
+                            <p class="article-text">
+                                Studi yang dilakukan para peneliti di Indiana University Bloomington terhadap 7.000 orang menemukan bahwa menonton video kucing meningkatkan emosi dan energi positif, serta menurunkan perasaan negatif.
+                            </p>
+                        </article>
+                    </div>
+                    <p><b><sup>*</sup>Artikel ini telah tayang di <a href="https://www.kompas.com/homey/read/2020/11/08/143000776/studi-buktikan-ini-7-manfaat-memelihara-kucing?page=all" target="_blank" style="text-decoration: none;">Kompas.com dengan judul "Studi Buktikan, Ini 7 Manfaat Memelihara Kucing".</a></b></p>
+                </div>
+            </div>
+        </section>
+
+        <section class="section-3">
+            <div class="container">
+                <div class="row">
+                    <div class="box content-5 flex-row">
+                        <div class="box-body">
+                            <p class="box-text">Baiklah! Itulah beberapa alasan mengapa <strong>Anda harus memelihara kucing.</strong></p>
+                            <hr class="horizontal-line">
+                        </div>
+                        <img src="assets/image/cat/cat-6.jpg" alt="koceng" id="cat-img-6">
+                    </div>
+                </div>
+            </div>
+        </section>
+    </main>
+    
+    <footer>
+        <img src="assets/image/waves-footer-2.svg " class="img-footer" alt="footer" width="100%">
+        <div class="footer">
+            <div class="container">
+                <div class="row f-justify-content-between">
+                    <div class="box box-footer f-align-items-center">
+                        <div class="box-body">
+                            <p>Made With</p>
+                        </div>
+                        <img src="assets/image/pawprint.svg" alt="paw" class="footer-logo" width="45px">
+                        <div class="box-body">
+                            <p>Paw</p>
+                        </div>
+                    </div>
+                    <div class="box">
+                        <div class="box-body">
+                            <a href="#" title="Home">
+                                <button type="button" class="button-home">&uarr;</button>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </footer>
+    <script src="js/my-script.js"></script>
+    <script>
+        let prevScrollPosition = window.pageYOffset;
+        window.onscroll = function() {
+        let currentScrollPosition = window.pageYOffset;
+        console.info("==== Prev ====");
+        console.log(prevScrollPosition);
+        console.info("==== Current ====");
+        console.log(currentScrollPosition);
+        if (prevScrollPosition > currentScrollPosition) {
+            document.getElementById("head").style.top = "0px";
+            if (prevScrollPosition > 100) {
+                document.getElementById("header").style.backgroundColor = "#1B1717";
+            } else {
+                document.getElementById("header").style.backgroundColor = "transparent";
+            }
+        } else {
+            document.getElementById("head").style.top = "-92px";
+        }
+        prevScrollPosition = currentScrollPosition;
+        };
+    </script>
+</body>
+</html>
